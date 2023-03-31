@@ -1,0 +1,226 @@
+.header-container{
+    padding-top:80px;
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63 / 15%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: #fff;
+    padding: 0 20px;
+    align-items: center;
+    color:#3d4152;
+}
+.nav-items>ul{
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+}
+.nav-items>ul>li{
+    margin-right: 60px;
+    color: #3d4152;
+    font-size: 16px;
+    font-weight: 500;
+    align-items: center;
+    padding-left: 28px;
+
+}
+.logo{
+    height:80px;
+}
+.card{
+    width: 220px;
+    height:260px;
+    margin-bottom:80px;
+    padding: 20px;
+    border:1px solid #e9e9eb;
+}
+.card>img{
+    width:100%;
+}
+
+.restaurant-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    border-top: 1px solid #e9e9eb;
+    margin:10px 20px;
+}
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing:inherit;
+}
+.search-container{
+    display:inline-block;
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+}
+.search-btn{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 118px;
+    margin-left: 10px;
+    border:1px solid rgb(219, 219, 219);
+}
+.search-input{
+    width: 800px;
+    margin-top: 20px;
+    border: 1px solid rgba(40,44,63,.3);
+    border-radius: 3px;
+    height:50px;
+    padding:0 20px;
+}
+
+.restaurant-card-name{
+    margin-top:14px;
+    font-size:17px;
+    font-weight:bold;
+}
+.restaurant-card-cuisines{
+    margin-top:4px;
+    overflow-wrap: anywhere;
+    font-size:13px;
+}
+.restaurant-card-last-mile-travel-string{
+    font-size:15px;
+    font-weight: 400;
+    display:inline-block;
+    text-align: center;
+}
+.shimmer-container{
+    margin-top:190px;
+}
+.shimmer-card{
+    width:220px;
+    height:160px;
+    background-color: lightgray;
+    margin:20px;
+}
+.login-btn, .logout-btn{
+    border:none;
+    background-color:#fff;
+}
+a{
+    text-decoration: none;
+    color:gray;
+}
+a:hover{
+    color:#3d4152;
+}
+.restaurant_details{
+    display:block;
+    max-width: 1000px;
+    margin:20px auto 0;
+}
+.restaurant_details h2{
+    margin:10px 0;
+}
+.restaurant_details img{
+    width:259px;
+    height:160px;
+}
+.restaurant_details div{
+    word-spacing: wrap;
+}
+.restaurant_info,.restaurant_menu{
+    max-width: 800px;
+    min-height: 300px;
+    margin: 20px auto 0;
+    font-size: .93rem;
+    color: #7e808c;
+}
+.restaurant_info > img{
+    float:right;
+}
+.restaurant_button{
+    border: 1px solid #e9e9eb;
+    box-shadow: 0 1px 5px #f9f9f9;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px;
+    max-width: 100px;
+    float: right;
+    margin-left:30px;
+}
+.restaurant_total_rating{
+    font-size: 11px;
+    color: #8b8d97;
+    font-family: ProximaNovaCondensedRegular,arial,Helvetica Neue,sans-serif;
+    font-weight: 600;
+}
+.restaurant_avgRating{
+    color: #3d9b6d;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e9e9eb;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: block;
+}
+.restaurant_delivery{
+    display:flex;
+    margin-top:20px;
+}
+.restaurant_fee_message{
+    flex-grow:1;
+   
+}
+.restaurant_delivery>img{
+    margin-right: 8px;
+    height: 18px;
+    width: 18px;
+}
+.restaurant_cuisines{
+    margin-bottom:4px;
+}
+.restaurant_timecost{
+    color: #3e4152;
+    font-size: 15px;
+    font-weight: 700;
+    margin:20px 0px;
+}
+.restaurant_timecost>span{
+    margin-right: 20px;
+
+}
+.restaurant_timecost_icon{
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+.restaurant_dashed_border{
+    border:none;
+    border-bottom: 1px dashed #d3d3d3;
+    margin-top:20px;
+}
+.instahead{
+        font-size: 3rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+        font-weight: bold;
+}
+.instatitle{
+    font-size: 1.25rem;
+  font-weight: bold;
+}
+.instasection{
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+}
+
+.footer {
+margin: 10px;
+width: auto;
+text-align: center;
+padding: 20px 10px 20px;
+border-radius: 5px;
+box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.71);
+color: black;
+}
